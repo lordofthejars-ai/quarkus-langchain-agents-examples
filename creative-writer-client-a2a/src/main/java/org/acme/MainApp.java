@@ -37,6 +37,7 @@ public class MainApp {
 
         A2ACreativeWriter creativeWriter = AgenticServices
                 .a2aBuilder("http://localhost:8080", A2ACreativeWriter.class)
+                .inputKeys("topic")
                 .outputKey("story")
                 .build();
 
